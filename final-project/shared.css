@@ -1,0 +1,145 @@
+body{
+    margin: 0%;
+    padding: 0;
+    background: url('images/8bit2.png') center/cover no-repeat;
+    background-size: unset;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* The header section */
+.header{
+    text-align: center;
+    color: #55bec0;
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: #1c2341;
+    font-family: Georgia, serif;
+    height: 3rem;
+    width: 100%;
+    margin: auto 0;
+}
+
+.header a{
+    text-decoration: none;   
+    vertical-align: middle;
+}
+
+.header a:visited{
+    text-decoration: none;
+    color: #55bec0;
+}
+.header a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+
+.color1{
+    color: #ff10f0;
+}
+
+.color2{
+    color: #55bec0;    
+}    
+/* The header section end */
+
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap{
+    padding-bottom: 3rem;
+}
+
+/* Footer start */
+.footer{
+    background-color: #000;
+    padding: 0;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    font-size: 16px;
+}
+
+.footer-list{
+    list-style:none;
+    text-align: center;
+}
+
+.footer-list-item{
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.footer-list-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-list-item a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-list-item a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+/* Footer end */
+
+
+@media(max-width:22.5rem)/*for Galaxy Note 3 360x640*/{
+    body{
+        background-size: 800%;
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+    
+    .footer-list{
+        padding-inline-start: 0;
+        padding: auto;
+    }
+    
+    .footer-list-item{
+        margin: 0 0.5rem;
+    }
+}
+
+@media(width:25.875rem)/*for iPhone 6/7/8 Plus 414x736*/{
+    body{
+        background-size: 700%;
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+    
+    .footer-list{
+        padding-inline-start: 0;
+        padding: auto;
+    }
+    
+    .footer-list-item{
+        margin: 0 0.5rem;
+    }
+}
+
+@media(width:23.4375rem)/*for iPhone X 375x812*/{
+    body{
+        background-size: 900%;
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+    
+    .footer-list{
+        padding-inline-start: 0;
+        padding: auto;
+    }
+    
+    .footer-list-item{
+        margin: 0 0.5rem;
+    }
+}

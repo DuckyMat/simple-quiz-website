@@ -1,0 +1,152 @@
+.quiz{
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    margin-top: 2rem;
+}
+
+.intro{
+    font-size: 1.5rem;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color: black;
+}
+
+.button{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #38a;
+}
+
+.logos{
+    width: 10rem;
+}
+
+.container{   
+  margin: 20px 20px 0 0;
+  border: 0;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.text{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin: 6rem;
+    color: black;
+    width: 60%;
+    float: left;
+}
+
+.doggo{
+    float: right;
+    padding: 2rem;
+    margin-right: 5rem;
+    margin-top: 4rem;
+    width: 10rem;
+    text-align: center;
+}
+
+@media(max-width:22.5rem)/*for Galaxy Note 3 360x640*/{
+    .intro{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+
+    .button{
+        font-size: 1.375rem;
+    }
+
+    .logos{
+        width: 10rem;
+    }
+
+    .container{
+        margin-right: 0;
+    }
+
+    .doggo{     
+        margin-right: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .text{
+        font-size: 1.375rem;
+        margin: 2rem;
+        width: 80%;
+        font-weight: bold;
+    }
+    
+}
+
+@media(width:25.875rem)/*for iPhone 6/7/8 Plus 414x736*/{
+    .container{
+        margin-right: 0;
+    }
+
+    .doggo{
+        margin-right: 6rem;
+    }
+    
+    .text{
+        font-size: 1.375rem;
+        margin: 2rem;
+        width: 80%;
+        font-weight: bold;
+    }
+}
+
+@media(width:23.4375rem)/*for iPhone X 375x812*/{
+    .container{
+        margin-right: 0;
+    }
+
+    .doggo{
+        margin-right: 5rem;
+    }
+    
+    .text{
+        font-size: 1.375rem;
+        margin: 2rem;
+        width: 80%;
+        font-weight: bold;
+    }
+}
+
+@media(width:48rem)/*for iPad 768x1024*/{
+    .container{
+        margin-right: 0;
+    }
+
+    .doggo{
+        margin-right: 1rem;
+    }
+    
+    .text{
+        font-size: 1.375rem;
+        margin: 2rem;
+        margin-left: 3rem;
+        width: 55%;
+    }
+}
+
+@media(min-width:120rem){
+    .doggo{
+        margin-right: 10rem;
+    }
+}
